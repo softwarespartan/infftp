@@ -1,0 +1,36 @@
+<RequestDefinition>
+
+ <startDate>
+   <year>2010</year>
+   <doy>1</doy>
+</startDate>
+
+ <stopDate>
+    <year>2010</year>
+   <doy>2</doy>
+ </stopDate>
+
+
+ <dataRequestList>
+    
+    <dataRequest>
+         <key>fair</key>
+         <dataProduct>rinex</dataProduct>
+         <destination>./data/usa/$key$/yyyy/doy/</destination>
+     </dataRequest>
+     
+    <dataRequest>
+         <key>irkt</key>
+         <dataProduct>rinex</dataProduct>
+         <destination>./data/igs/$key$/yyyy/doy/</destination>
+     </dataRequest>
+     
+    <dataRequest>
+         <key>kiru</key>
+         <dataProduct>rinex</dataProduct>
+         <destination>./data/igs/$key$/yyyy/doy/</destination>
+     </dataRequest>
+     
+ </dataRequestList>
+ 
+ </RequestDefinition>

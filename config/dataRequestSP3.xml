@@ -1,0 +1,24 @@
+<RequestDefinition>
+
+<startDate>
+    <year>1999</year>
+    <doy>1</doy>
+</startDate>
+
+<stopDate>
+    <year>1999</year>
+    <doy>365</doy>
+</stopDate>
+
+<dataRequestList>  
+
+                <dataRequest>
+                        <key>igs</key>
+                        <dataProduct>sp3File</dataProduct>
+                        <destination>/Users/abel/Documents/data/sp3igs/yyyy/doy/$key$gpsdate.sp3.Z</destination>
+                        <serverExclusive>CDDIS</serverExclusive>
+                </dataRequest>
+
+</dataRequestList>
+
+</RequestDefinition>

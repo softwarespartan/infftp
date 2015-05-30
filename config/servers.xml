@@ -1,0 +1,30 @@
+<serverInfo>
+
+    <serverList> 
+        <server>
+            <name>UNAVCO</name>
+            <address>data-out.unavco.org</address>
+            <userName>anonymous</userName>"
+            <password>brown.2179@gmail.com</password>
+            <numberOfThreads>5</numberOfThreads>
+        </server> 
+        
+        <server>
+            <name>SOPAC</name>
+            <address>garner.ucsd.edu</address>
+            <userName>anonymous</userName>"
+            <password>brown.2179@gmail.com</password>
+            <numberOfThreads>2</numberOfThreads>
+        </server>
+         <server>
+            <name>CDDIS</name>
+            <address>cddis.gsfc.nasa.gov</address>
+            <userName>anonymous</userName>"
+            <password>brown.2179@gmail.com</password>
+            <numberOfThreads>5</numberOfThreads>
+        </server>
+
+        
+    </serverList> 
+    
+</serverInfo>

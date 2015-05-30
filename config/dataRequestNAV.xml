@@ -1,0 +1,26 @@
+<RequestDefinition>
+
+<startDate>
+    <year>2010</year>
+    <doy>1</doy>
+</startDate>
+
+<stopDate>
+    <year>2010</year>
+    <doy>170</doy>
+</stopDate>
+
+<dataRequestList>  
+
+    <dataRequest>
+    
+        <key>auto</key>
+        <dataProduct>navFile</dataProduct>
+        <destination>./data/yyyy/doy/</destination> 
+        <serverExclusive>SOPAC</serverExclusive>
+        
+    </dataRequest>
+    
+</dataRequestList>
+
+</RequestDefinition>

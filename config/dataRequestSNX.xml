@@ -1,0 +1,80 @@
+<RequestDefinition>
+
+<startDate>
+    <year>1994</year>
+    <doy>1</doy>
+</startDate>
+
+<stopDate>
+    <year>2010</year>
+    <doy>365</doy>
+</stopDate>
+
+<dataRequestList>  
+
+                <dataRequest>
+                        <key>co1</key>
+                        <dataProduct>sinexFile</dataProduct>
+                        <destination>/Users/abel/Documents/data/snx/repro1/gpsweek/</destination>
+                        <serverExclusive>CDDIS</serverExclusive>
+                </dataRequest>
+
+                <dataRequest>
+                        <key>pd1</key>
+                        <dataProduct>sinexFile</dataProduct>
+                        <destination>/Users/abel/Documents/data/snx/repro1/gpsweek/</destination>
+                        <serverExclusive>CDDIS</serverExclusive>
+                </dataRequest>
+                
+                <dataRequest>
+                        <key>gf1</key>
+                        <dataProduct>sinexFile</dataProduct>
+                        <destination>/Users/abel/Documents/data/snx/repro1/gpsweek/</destination>
+                        <serverExclusive>CDDIS</serverExclusive>
+                </dataRequest>
+                
+                <dataRequest>
+                        <key>em1</key>
+                        <dataProduct>sinexFile</dataProduct>
+                        <destination>/Users/abel/Documents/data/snx/repro1/gpsweek/</destination>
+                        <serverExclusive>CDDIS</serverExclusive>
+                </dataRequest>
+                
+                <dataRequest>
+                        <key>es1</key>
+                        <dataProduct>sinexFile</dataProduct>
+                        <destination>/Users/abel/Documents/data/snx/repro1/gpsweek/</destination>
+                        <serverExclusive>CDDIS</serverExclusive>
+                </dataRequest>
+                
+                <dataRequest>
+                        <key>mi1</key>
+                        <dataProduct>sinexFile</dataProduct>
+                        <destination>/Users/abel/Documents/data/snx/repro1/gpsweek/</destination>
+                        <serverExclusive>CDDIS</serverExclusive>
+                </dataRequest>
+                
+                <dataRequest>
+                        <key>si1</key>
+                        <dataProduct>sinexFile</dataProduct>
+                        <destination>/Users/abel/Documents/data/snx/repro1/gpsweek/</destination>
+                        <serverExclusive>CDDIS</serverExclusive>
+                </dataRequest>
+                
+                
+                <dataRequest>
+                        <key>ng1</key>
+                        <dataProduct>sinexFile</dataProduct>
+                        <destination>/Users/abel/Documents/data/snx/repro1/gpsweek/</destination>
+                        <serverExclusive>CDDIS</serverExclusive>
+                </dataRequest>
+
+                <dataRequest>
+                        <key>jp1</key>
+                        <dataProduct>sinexFile</dataProduct>
+                        <destination>/Users/abel/Documents/data/snx/repro1/gpsweek/</destination>
+                        <serverExclusive>CDDIS</serverExclusive>
+                </dataRequest>
+</dataRequestList>
+
+</RequestDefinition>

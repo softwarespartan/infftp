@@ -1,0 +1,98 @@
+<dataDefinitions>
+
+    <server>
+        <name>UNAVCO</name>
+        <dataProduct>
+            <name>rinex</name>
+            <path>/pub/rinex/obs/yyyy/doy/$key$doy0.yyd.Z</path>
+        </dataProduct>
+    </server>
+    
+    <server>
+    
+        <name>SOPAC</name>
+    
+        <dataProduct>
+            <name>rinex</name>
+            <path>/pub/rinex/yyyy/doy/$key$doy0.yyd.Z</path>
+        </dataProduct>
+        
+        <dataProduct>
+            <name>clockFile</name>
+            <path>/pub/products/gpsweek/$key$gpsdate.clk.Z</path>
+        </dataProduct>
+        
+        <dataProduct>
+            <name>sp3File</name>
+            <path>/pub/products/gpsweek/$key$gpsdate.sp3.Z</path>
+        </dataProduct>
+        
+        <dataProduct>
+            <name>navFile</name>
+            <path>/pub/rinex/yyyy/doy/autodoy0.yyn.Z</path>
+        </dataProduct>
+        
+        
+    </server>
+    
+    <server>
+
+        <name>CDDIS</name>
+
+        <dataProduct>
+            <name>rinex</name>
+            <path>/gps/data/daily/yyyy/doy/yyd/$key$doy0.yyd.Z</path>
+        </dataProduct>
+
+	  <dataProduct>
+            <name>clockFile</name>
+            <path>/gps/products/gpsweek/repro1/$key$gpsdate.clk.Z</path>
+        </dataProduct>
+
+	  <dataProduct>
+            <name>sp3File</name>
+            <path>/gps/products/gpsweek/$key$gpsdate.sp3.Z</path>
+        </dataProduct>
+
+	  <dataProduct>
+            <name>sinexFile</name>
+            <path>/gps/products/gpsweek/repro1/$key$gpsweek7.snx.Z</path>
+        </dataProduct>
+        
+       <dataProduct>
+            <name>ig1SinexFile</name>
+            <path>/gps/products/gpsweek/repro1/ig1yyPgpsweek.snx.Z</path>
+        </dataProduct>
+
+	  <dataProduct>
+            <name>ephFile</name>
+            <path>/gps/products/gpsweek/repro1/$key$gpsdate.eph.Z</path>
+        </dataProduct>
+
+    </server>
+    
+     <server>
+        <name>NGS</name>
+        <dataProduct>
+            <name>rinex</name>
+            <path>/cors/rinex/yyyy/doy/$key$/$key$doy0.yyd.Z</path>
+        </dataProduct>
+    </server>
+
+    <server>
+
+        <name>CODE</name>
+
+        <dataProduct>
+            <name>clockFile</name>
+            <path>/aiub/CODE/yyyy/CODgpsdate.CLK.Z</path>
+        </dataProduct>
+
+	  <dataProduct>
+            <name>sinexFile</name>
+            <path>/aiub/CODE/yyyy/CODgpsdate.SNX.Z</path>
+        </dataProduct>
+
+    </server>
+    
+</dataDefinitions>

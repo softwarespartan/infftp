@@ -1,0 +1,23 @@
+<RequestDefinition>
+
+<startDate>
+    <year>2010</year>
+    <doy>1</doy>
+</startDate>
+
+<stopDate>
+    <year>2010</year>
+    <doy>200</doy>
+</stopDate>
+
+<dataRequestList>  
+    
+    <dataRequest>
+        <key>whtm</key>
+        <dataProduct>rinex</dataProduct>
+        <destination>/media/fugu/junk/$key$/</destination> 
+    </dataRequest>
+      
+    
+</dataRequestList>
+</RequestDefinition>

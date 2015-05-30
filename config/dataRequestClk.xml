@@ -1,0 +1,25 @@
+<RequestDefinition>
+
+<startDate>
+    <year>2010</year>
+    <doy>1</doy>
+</startDate>
+
+<stopDate>
+    <year>2010</year>
+    <doy>170</doy>
+</stopDate>
+
+<dataRequestList>  
+
+    <dataRequest>
+        <key>igs</key>
+        <dataProduct>clockFile</dataProduct>
+        <destination>/media/fugu/processing/products/clk/yyyy/doy/</destination> 
+        <serverExclusive>SOPAC</serverExclusive>
+        
+    </dataRequest>
+    
+</dataRequestList>
+
+</RequestDefinition>
